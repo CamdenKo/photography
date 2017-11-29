@@ -1,13 +1,12 @@
 # Base configs
-baseurl: "https://camdenko.github.io/photography"
+# baseurl: "https://camdenko.github.io/photography"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
 
 collections:
-  Camden:
+  shoots:
     output: true
-    permalink: /Camden
 
 # UI configs
 title: "Pranav Selvan Photography"
