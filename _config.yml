@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "http://photography.ramswaroop.me"
+baseurl: "camdenko.github.io/photography"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
@@ -18,4 +18,3 @@ social_urls:
   dribbble: "https://dribbble.com/ramswaroop"
   linkedin: "https://in.linkedin.com/in/ramswarooppatra"
   github: "https://www.github.com/ramswaroop"
-  
