@@ -4,12 +4,17 @@ image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
 
+collections:
+  Camden:
+    output: true
+    permalink: /Camden
+
 # UI configs
 title: "Pranav Selvan Photography"
 subtitle: "See the world through my eyes!"
 author: "Pranav Selvan"
 bio: "Future doctor, photographer, and lover."
-publicise: "Contact me @ pranavselvan.com"
+publicise: "Contact me @ pranavselvan@gmail.com"
 web_design: "AJ"
 social_urls:
   facebook: "https://www.facebook.com/ramswaroop"
@@ -17,4 +22,4 @@ social_urls:
   instagram: "https://www.instagram.com/ramswarooppatra"
   dribbble: "https://dribbble.com/ramswaroop"
   linkedin: "https://in.linkedin.com/in/ramswarooppatra"
-  github: "https://www.github.com/ramswaroop"
+  github: "https://www.github.com/camdenko"
