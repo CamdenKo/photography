@@ -18,15 +18,10 @@ layout: default
     <!-- Main -->
     <div id="main">
         {% for image in site.static_files %}
-        <br />
-        {{ image.path }}
             {% if image.path contains 'fulls' %}
-                <div>a</div>
                 <article class="thumb">
                     <a href="{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                    <img src="{{ site.image_thumbs_loc }}/{{ image.name }}" alt="" data-name="{{ image.name }}"/></a>
-                    <!--<h2></h2>
-                    <p></p>-->
+                    <img src="{{ site.image_thumbs_loc }}/{{ image.name }}" alt="{{ image.name }}" data-name="{{ image.name }}"/></a>
                 </article>
             {% endif %}
         {% endfor %}
@@ -37,7 +32,7 @@ layout: default
         <div class="inner split">
             <div>
                 <section>
-                    <h2>Hey there, my name is Ram</h2>
+                    <h2>Hey there, my name is Pranav</h2>
                     <p>{{ site.bio }}</p>
                     <p>{{ site.publicise }}</p>
                 </section>
@@ -72,6 +67,7 @@ layout: default
                 <section>
                     <h2>Get in touch</h2>
                     <form method="post" action="#">
+                        <!-- TODO Formspree -->
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name"/>
                         </div>
